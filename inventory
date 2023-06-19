@@ -1,3 +1,6 @@
-uwe@192.168.248.146 apache_package=apache2 php_package=libapache2-mod-php
-uwe@192.168.248.147 apache_package=apache2 php_package=libapache2-mod-php
+[web_server]
+uwe@192.168.248.146 
+
+[db_server]
+uwe@192.168.248.147 
 
