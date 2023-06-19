@@ -1,2 +1,3 @@
-uwe@192.168.248.146
-uwe@192.168.248.147
+uwe@192.168.248.146 apache_package=apache2 php_package=libapache2-mod-php
+uwe@192.168.248.147 apache_package=apache2 php_package=libapache2-mod-php
+
