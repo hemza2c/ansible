@@ -18,3 +18,13 @@
        - apache2
        - libapache2-mod-php
       state: latest
+
+- hosts: db_server
+  become: true
+  tasks:
+  - name: install maria db
+    apt:
+      name:
+        - mariadb-server
+      state: latest
+
